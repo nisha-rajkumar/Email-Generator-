@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # -------------------- Configuration --------------------
 # Inbuilt Gemini API Key (ensure it's secure in real apps)
-API_KEY = "AIzaSyC_iRD_Ss1ayBXadgIIrHAoMKu2xoXkTFY"
+API_KEY = "AIzaSyC_iRD_Ss1ayBXadgIIrHAoMKu2xoXk"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
